@@ -1,0 +1,32 @@
+https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=077c4f0be478e67d4043f71df0e4b307
+Сергей Ермаков 14:28
+https://codesandbox.io/
+
+Отобразить
+ температуру текущую по Москве и Питеру в градусах Цельсия и Фаренгейта 1. APPID  https://api.openweathermap.org/data/2.5/forecast?id=524901&appid=b99a37f6cbd6ffdaa77f4abf103989a8
+ 2. Документация, вызов по коду города https://openweathermap.org/current#cityid
+{ "lon": 37.606667, "lat": 55.761665 } }, { "id": 498817, "name": "Saint Petersburg", "state": "", "country": "RU", "coord": { "lon": 30.264168, 3. Информация по городам Москва и Питер { "id": 524894, "name": "Moscow", "state": "", "country": "RU", "coord": 
+ "lat": 59.894444 } },
+
+Москва
+ https://api.openweathermap.org/data/2.5/weather?id=524894&appid=b99a37f6cbd6ffdaa77f4abf103989a8&units=metric
+ https://api.openweathermap.org/data/2.5/weather?id=524894&appid=b99a37f6cbd6ffdaa77f4abf103989a8&units=imperial
+Питер
+ https://api.openweathermap.org/data/2.5/weather?id=498817&appid=b99a37f6cbd6ffdaa77f4abf103989a8&units=metric
+ https://api.openweathermap.org/data/2.5/weather?id=498817&appid=b99a37f6cbd6ffdaa77f4abf103989a8&units=imperial
+Сергей Ермаков 14:43
+https://api.openweathermap.org/data/2.5/weather?id=524894&appid=b99a37f6cbd6ffdaa77f4abf103989a8&units=metric
+
+{"coord":{"lon":37.6067,"lat":55.7617},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],"base":"stations","main":{"temp":1.84,"feels_like":-1.04,"temp_min":0.22,"temp_max":2.89,"pressure":1015,"humidity":80,"sea_level":1015,"grnd_level":995},"visibility":10000,"wind":{"speed":2.71,"deg":347,"gust":4.24},"clouds":{"all":96},"dt":1667389147,"sys":{"type":2,"id":2000314,"country":"RU","sunrise":1667363830,"sunset":1667396940},"timezone":10800,"id":524894,"name":"Moscow","cod":200}
+Сергей Ермаков 14:43
+https://api.openweathermap.org/data/2.5/weather?id=524894&appid=b99a37f6cbd6ffdaa77f4abf103989a8&units=imperial
+
+{"coord":{"lon":37.6067,"lat":55.7617},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],"base":"stations","main":{"temp":35.31,"feels_like":30.13,"temp_min":32.4,"temp_max":37.2,"pressure":1015,"humidity":80,"sea_level":1015,"grnd_level":995},"visibility":10000,"wind":{"speed":6.06,"deg":347,"gust":9.48},"clouds":{"all":96},"dt":1667389202,"sys":{"type":2,"id":2000314,"country":"RU","sunrise":1667363830,"sunset":1667396940},"timezone":10800,"id":524894,"name":"Moscow","cod":200}
+Сергей Ермаков 14:43
+https://api.openweathermap.org/data/2.5/weather?id=498817&appid=b99a37f6cbd6ffdaa77f4abf103989a8&units=metric
+
+{"coord":{"lon":30.2642,"lat":59.8944},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],"base":"stations","main":{"temp":6.08,"feels_like":3.8,"temp_min":6.08,"temp_max":6.08,"pressure":1016,"humidity":93},"visibility":9000,"wind":{"speed":3,"deg":320},"clouds":{"all":100},"dt":1667388657,"sys":{"type":1,"id":8926,"country":"RU","sunrise":1667366547,"sunset":1667397747},"timezone":10800,"id":498817,"name":"Saint Petersburg","cod":200}
+Сергей Ермаков 14:44
+https://api.openweathermap.org/data/2.5/weather?id=498817&appid=b99a37f6cbd6ffdaa77f4abf103989a8&units=imperial
+
+{"coord":{"lon":30.2642,"lat":59.8944},"weather":[{"id":804,"main":"Clouds","description":"overcast clouds","icon":"04d"}],"base":"stations","main":{"temp":42.94,"feels_like":38.84,"temp_min":42.94,"temp_max":42.94,"pressure":1016,"humidity":93},"visibility":9000,"wind":{"speed":6.71,"deg":310},"clouds":{"all":100},"dt":1667388919,"sys":{"type":1,"id":8926,"country":"RU","sunrise":1667366547,"sunset":1667397747},"timezone":10800,"id":498817,"name":"Saint Petersburg","cod":200}
